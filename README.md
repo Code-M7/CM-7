@@ -12,11 +12,11 @@ Sayt: https://code-m7.github.io/CM-7/
 
 ### Kodunuzu yazmaq ucun
 1. Bir papkanin icine  `git clone https://github.com/Code-M7/CM-7.git`
-2. Oz branciniza kecirsiniz
-3. Oz grup adinizda `FlankasFlankas.html` fayli yaradirsiniz (eger adi css olacaqsa onu da o terzde)
-4. `Header`-i ve onun CSS ine `linki` elave edirsiniz 
-5. `Header`in icinde grupunaza aid `a` var onun icine oz fayliniza (`FlankasFlankas.html`) elave edin
-5. Kodunuzu hazir edenden sonra 
+2. Sonra oz branchinizi yaradirsiniz `git checkout -b (ad)`
+3. Oz grup adi ile `FlankasFlankas.html` fayli yaradirsiniz (eger adi css olacaqsa onu da o terzde)
+4. _İndex.html_-dan `Header`-i ve onun CSS  `linki` oz fayliniza copy edirsiniz 
+5. _index.html_-da`Header`in icinde grupunaza aid `a` var onun icine oz fayla istiqamet (`FlankasFlankas.html`) elave edin
+6. Kodunuzu hazir edenden sonra 
  - `git add .`
  - `git commit -m "Etdiyinizin tesvirini yazin"`
- - `git push `
+ - `git push -u origin adin`
