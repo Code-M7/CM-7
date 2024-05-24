@@ -642,14 +642,6 @@ video {
   }
 }
 
-.relative {
-  position: relative;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .ml-4 {
   margin-left: 1rem;
 }
@@ -664,10 +656,6 @@ video {
 
 .h-10 {
   height: 2.5rem;
-}
-
-.h-14 {
-  height: 3.5rem;
 }
 
 .h-20 {
@@ -778,14 +766,6 @@ video {
 @media (min-width: 768px) {
   .md\:invisible {
     visibility: hidden;
-  }
-
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:shadow-none {
