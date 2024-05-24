@@ -1,11 +1,11 @@
 function showContent(buttonElement) {
     const hiddenContent = buttonElement.parentElement.nextElementSibling;
 
-    if (hiddenContent.style.height === "10rem") {
+    if (hiddenContent.style.height === "15rem") {
         hiddenContent.style.height = "0";
         buttonElement.style.transform = "rotate(0deg)";
     } else {
-        hiddenContent.style.height = "10rem";
+        hiddenContent.style.height = "15rem";
         buttonElement.style.transform = "rotate(90deg)";
     }
 }
