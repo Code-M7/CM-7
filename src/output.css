@@ -583,6 +583,10 @@ video {
   }
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .absolute {
   position: absolute;
 }
@@ -611,6 +615,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -625,6 +633,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-full {
@@ -645,6 +657,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .text-nowrap {
@@ -728,12 +744,34 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[right\] {
+  transition-property: right;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-\[visibility\] {
+  transition-property: visibility;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
 
 .hover\:right-\[-1rem\]:hover {
   right: -1rem;
+}
+
+.hover\:block:hover {
+  display: block;
 }
 
 .hover\:rotate-\[360deg\]:hover {
@@ -743,6 +781,10 @@ video {
 
 .peer:hover ~ .peer-hover\:right-\[-1rem\] {
   right: -1rem;
+}
+
+.peer:hover ~ .peer-hover\:block {
+  display: block;
 }
 
 @media (min-width: 768px) {
