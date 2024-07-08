@@ -4,8 +4,8 @@ const start = new Date(2024, 3, 17);
 const graduation = new Date(2024, 7, 15);
 
 // Current Iteration
-const IterationStart = new Date(2024, 5, 23);
-const IterationEnd = new Date(2024, 6, 7);
+const IterationStart = new Date(2024, 6, 8);
+const IterationEnd = new Date(2024, 6, 22);
 
 const elements = ["months", "weeks", "days","hours", "minutes", "seconds"];
 const suffixes = ["|W", "|M", "|D","|h", "|min", "|Sec"];
